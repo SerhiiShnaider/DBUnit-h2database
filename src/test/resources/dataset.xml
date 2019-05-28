@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <USER ID='1' FIRST='name1' LAST='lastname1' AGE='10'/>
+  <USER ID='2' FIRST='name2' LAST='lastname2' AGE='20'/>
+  <USER ID='3' FIRST='name3' LAST='lastname3' AGE='30'/>
+</dataset>
