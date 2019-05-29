@@ -9,7 +9,7 @@ import org.dbunit.operation.DatabaseOperation;
 
 public abstract class DbUnitBaseTest extends DBTestCase {
 
-  public DbUnitBaseTest() {
+  DbUnitBaseTest() {
     System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS, "org.h2.Driver");
     System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL, "jdbc:h2:~/test");
     System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_USERNAME, "sa");
