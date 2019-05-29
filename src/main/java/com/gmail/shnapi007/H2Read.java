@@ -10,7 +10,6 @@ public class H2Read extends H2Base {
   public static void main(String[] args) {
 
     try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS)) {
-      Class.forName(JDBC_DRIVER);
 
       System.out.println("Connecting to database...");
 
